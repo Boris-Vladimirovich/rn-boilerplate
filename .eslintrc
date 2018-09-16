@@ -1,0 +1,10 @@
+{
+    "extends": "webbylab",
+    "rules": {
+        "key-spacing": 0,
+        "react/sort-comp": 0,
+        "react/jsx-no-bind": 0,
+        "react/jsx-handler-names": 0,
+        "react/no-deprecated": 0
+    }
+}

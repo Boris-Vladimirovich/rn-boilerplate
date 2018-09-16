@@ -1,0 +1,36 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "react-native-navigation": "^1.1.476",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "23.4.0",
+    "babel-preset-react-native": "5.0.2",
+    "eslint": "^5.2.0",
+    "eslint-config-webbylab": "^4.0.0",
+    "eslint-plugin-fetch": "0.0.1",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-more": "^0.3.1",
+    "eslint-plugin-no-require-lodash": "^1.1.0",
+    "eslint-plugin-prefer-spread": "^1.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "23.4.1",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
